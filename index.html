@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lightbox Site</title>
+    <link rel="stylesheet" href="lightbox/css/lightbox.css">
+</head>
+<body>
+   
+   <h3 style='color: orange;'>Let's travel the world, click the links to show images</h3>
+   
+   <div>
+       <a href="http://www.nationalgeographicexpeditions.com/assets/images/2793/destinations-hub.jpg" data-lightbox="places" data-title="Travel Europe">Europe</a>
+       
+       <a href="http://www.nationalgeographicexpeditions.com/assets/images/476/destinations-hub.jpg" data-lightbox="places" data-title="Travel Asia">Asia</a>
+       
+       <a href="http://www.nationalgeographicexpeditions.com/assets/images/2796/destinations-hub.jpg" data-lightbox="places" data-title="Travel Asia & Pacific">Oceania</a>
+       
+       <a href="http://www.nationalgeographicexpeditions.com/assets/images/2763/destinations-hub.jpg" data-lightbox="places" data-title="Travel Central America">Central America</a>
+       
+       <a href="http://www.nationalgeographicexpeditions.com/assets/images/3296/destinations-hub.jpg" data-lightbox="places" data-title="Travel Middle East">Middle-East</a>
+       
+       <a href="images/image-1.jpg" data-lightbox=></a>
+   </div>
+    
+    <script src="jquery.min.js"></script>
+    <script src="lightbox/js/lightbox.min.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'fadeDuration': 500,
+            'fitImagesInViewport': true
+        });
+    </script>
+</body>
+</html>
